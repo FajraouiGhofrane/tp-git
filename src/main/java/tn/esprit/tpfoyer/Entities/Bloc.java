@@ -18,7 +18,7 @@ public class Bloc {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     long idBloc;
-    String nomBloc;
+    String nomBloc1;
     long capaciteBloc;
     //ASSOCIATIONS
     @ManyToOne(cascade = CascadeType.ALL)
